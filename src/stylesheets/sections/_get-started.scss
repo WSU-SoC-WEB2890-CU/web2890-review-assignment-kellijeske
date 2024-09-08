@@ -20,8 +20,8 @@
 
     li::before {
       font-family: "Font Awesome 5 Free";
-      content: "\f00c";
-      font-weight: 600;
+      // content: "\f00c"; //Backslash + desired unicode from FontAwesome cheatsheet
+      font-weight: 600; //Must use 600 or above
       margin-right: 0.5rem;
       font-size: 1.2rem;
     }

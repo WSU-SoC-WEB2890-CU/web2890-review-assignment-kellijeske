@@ -20,7 +20,6 @@
         i {
 
           font-size: 6rem;
-          color: $orange;
 
         }
       }
@@ -30,7 +29,7 @@
 
 .border-animation {
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
   width: 6rem;
   height: 6rem;
@@ -45,4 +44,8 @@
   &--border-2 {
     animation-delay: 1.5s;
   }
+}
+
+.end-intro-svg{
+  margin-bottom: -2px;
 }

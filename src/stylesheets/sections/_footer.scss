@@ -12,7 +12,7 @@
 
   &__icon {
     width: 2rem;
-    stroke: $orange;
+    stroke: $primary;
     padding-top: 0.5rem;
 
     @include media-breakpoint-up(sm) {
@@ -51,6 +51,7 @@
 }
 
 // STYLE THE SOCIAL MEDIA CONTENT 
+
 .footer-sm {
   a {
     color: $white;
@@ -70,7 +71,7 @@
   }
 }
 
-// STYLE THE CAMPANY INFO CONTENT 
+// STYLE THE COMPANY INFO CONTENT 
 .company-list {
   display: block;
   list-style-type: none;
