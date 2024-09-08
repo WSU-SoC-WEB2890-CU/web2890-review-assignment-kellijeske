@@ -1,1 +1,49 @@
 TODO: List here all the changes you made to given template to adapt it to your needs
+
+
+Added Sections:
+- About
+- Skills
+
+
+10 Changes:
+1- Replaced the empty stars with full ones in the testimonials section. 
+    - This avoids confusion with users thinking they all gave 0 stars in their reviews.
+
+2- Replaced the empty rectangles from the Get Started section (looks like a mistake?) 
+   so they have check marks instead. 
+    - This encourages a positive outlook on the checklist items as if they are already 
+     checked off as we speak! Also it makes it look better, not like a mistake.
+
+3- Fixed the misalignment of the animated play button icon. The animation didn't match up to the icon.
+       - This looks more aesthetically pleasing. The other way looked like bad coding.
+
+4- Changed the look of the icon, lightened the primary color using bootstrap, and 
+    created a hover affect with transition.
+        - It made the button feel like it was actually being pressed when clicking it.
+
+5- Changed Faq to FAQ in the navbar
+    - This needed to be fixed so it looks like natural English. It is an acronym after all.
+
+6- Made all the links actually work
+    - A link should be linked to something, after all!
+
+7- Changed the site title and icon (on the browser tab)
+    - It looks more like a real website this way.
+
+8- Changed the logo
+    - I created/generated a cute animal with glasses from Adobe Illustrator because the site needed 
+      something cute and friendly! 
+
+9- Moved the waves a little bit (they were not aligned perfectly and had a small gap between it and the next section)
+    - It looked bad otherwise. Changing this improved the website aesthetics.
+
+
+10- Changed the font to Poppins
+    - I think it looks a little better this way. I just wanted the Poppins font.
+
+
+Note: I tried really hard to get the filter buttons to work, but I can't figure out 
+      what I'm doing wrong in the Javascript. If you know why they don't work, feel free
+      to let me know. If not, oh well. I can figure out a better implementation of that
+      feature in a future project.

@@ -31,9 +31,27 @@
   &:hover {
     @include gradient;
     color: $white;
+    
 
     span {
-      background-color: rgba($orange, 1.0);
+      background-color: rgba($primary, 1.0);
     }
   }
+}
+
+
+.play-btn-container{
+  &:hover {
+    span{
+      i{
+        color: white;
+        transition: 0.3s;
+        
+
+      }
+    }
+  }
+}
+.play-btn{
+  color: $secondary-lighter;
 }

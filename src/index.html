@@ -3,17 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>Kelli Jeske Portfolio</title>
+  <link rel="icon" type="svg" href="images/logo-icon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: A starter project for ...">
-  <title>Bootstrap 5 Landing Page Template</title>
-
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
 <body>
-
   <!-- THE NAVBAR SECTION -->
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
@@ -29,13 +27,13 @@
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded">
-          801-626-1234
+          435-770-9168
           <span>
             <i class="bi bi-telephone-fill"></i>
           </span>
@@ -44,64 +42,117 @@
     </div>
   </nav>
 
-  <!-- THE INTRO SECTION -->
+
+
+  <!-- INTRO SECTION -->
   <section id="home" class="intro-section">
     <div class="container">
-      <div class="row align-items-center text-white">
-        <div class="col-md-6 intros text-start">
-          <h1 class="display-2">
-            <span class="display-2--intro">Welcome!</span>
-            <span class="display-2--description lh-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur libero quod quasi et ex.
-            </span>
-          </h1>
-          <button type="button" class="rounded-pill btn-rounded">Get in Touch
-            <span><i class="bi bi-arrow-right"></i></span>
-          </button>
+        <div class="row align-items-center text-white">
+            <!-- START THE CONTENT FOR THE INTRO -->
+            <div class="col-md-6 intros">
+                <h1 class="display-2">
+                    <span class="display-2--intro">Hey, I'm Kelli</span>
+                    <span class="display-2--description lh-base">web designer, marketer, graphic designer - with a goal to maximize your business potential</span>
+                </h1>
+                <button type="button" class="btn-rounded rounded-pill">
+                    Get in touch
+                    <span><i class="bi bi-arrow-right"></i></span>
+                </button>
+            </div>
+            <!-- START THE CONTENT FOR THE VIDEO -->
+            <div class="col-md-6 intros text-end">
+                <div class="video-box">
+                    <img src="images/arts/consulting-48.png" alt="video illustration" class="img-fluid">
+                    <a href="#" class="position-absolute top-50 start-50 translate-middle play-btn-container">
+                        <span>
+                            <i class="bi bi-play-circle-fill play-btn"></i>
+                        </span>
+                        <span class="border-animation border-animation--border-1"></span>
+                        <span class="border-animation border-animation--border-2"></span>
+
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 intros text-end">
-          <div class="video-box">
-            <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-              <span>
-                <i class="bi bi-play-circle"></i>
-              </span>
-              <span class="border-animation border-animation--border-1"></span>
-              <span class="border-animation border-animation--border-2"></span>
-            </a>
-          </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="end-intro-svg"><path fill="#fff" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,186.7C384,171,480,117,576,117.3C672,117,768,171,864,176C960,181,1056,139,1152,117.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>    
+</section>
+
+
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">About Me</h1>
+      <div class="heading-line mb-1"></div>
+    </div>
+  </div>
+  <div class="row pt-2 pb-2 mt-0 mb-3">
+    <!-- Image Column -->
+    <div class="col-12 col-md-4 m-auto">
+      <div class="bg-white p-3">
+        <div class="card m-auto" style="width: 18rem;">
+          <img src="images/me.jpg" class="card-img-top" alt="photo of Kelli Jeske">
         </div>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1"
-        d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-
-  <!-- THE SERVICES SECTION -->
-  <section id="services" class="services">
-    <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold">Our Services</h1>
-        <div class="heading-line mb-1"></div>
+    <!-- Text Column with Extra Right Padding -->
+    <div class="col-12 col-md-8 pe-lg-5"> <!-- Added 'pe-lg-5' for right padding on large screens -->
+      <div class="bg-white p-3">
+        <p class="fw-light text-center">Personal growth and understanding the world around me are always on my mind. I have a vision of becoming the best, most capable version of myself, so I can excel in everything I do, proving to be a valuable asset to any business.</p>
+        <ul>
+          <li>Self-motivated</li>
+          <li>Growth mindset</li>
+          <li>Empathetic & perceptive</li>
+          <li>Knowledge-seeker</li>
+          <li>Patient, level-headed, & understanding</li>
+          <li>Constantly planning & taking steps on goals</li>
+          <li>Desire for everyone's success, not just my own</li>
+          <li>Resolves problems promptly & positively</li>
+          <li>Will strategize to help your business thrive</li>
+        </ul>
+        <div class="text-center">
+          <a href="#Contact">
+            <button type="button" class="btn btn-primary rounded-pill py-3 px-5">
+              Contact Me
+            </button>
+          </a>
+        </div>
       </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- SERVICES SECTION -->
+<section id="services" class="services mt-5">
+  <div class="container">
+      <div class="row text-center">
+          <h1 class="display-3 fw-bold">Services</h1>
+          <div class="heading-line mb-1"></div>
+      </div>
+  <!-- DESCRIPTION CONTENT -->
       <div class="row pt-2 pb-2 mt-0 mb-3">
-        <div class="col-md-6 border-right">
-          <div class="bg-white p-3">
-            <h2 class="fw-bold text-capitalize text-center">
-              Soluta exercitationem voluptatem labore cum necessitatibus temporibus nisi.
-            </h2>
+          <div class="col-md-6 border-right">
+              <div class="bg-white p-3">
+                  <h2 class="fw-bold text-capitalize text-center">
+                      The services you need for the problems you need solving
+                  </h2>
+              </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="bg-white p-4 text-start">
-            <p class="fw-light">
-              Hello
-            </p>
+          <div class="col-md-6">
+              <div class="bg-white p-4 text-start">
+                  <p class="fw-light">
+                      Coming from a background of graphic design, marketing, and business, I am able to create a strategy for you to increase web traffic, sales, and customer satisfaction.
+                  </p>
+              </div>
           </div>
-        </div>
       </div>
     </div>
 
@@ -112,7 +163,7 @@
             <div class="icon d-block bi bi-send-fill"></div>
             <h3 class="display-3--title mt-1">Marketing</h3>
             <p class="lh-lg">
-              Welcome to my website. This is new.
+              Unlock your brand’s full potential with tailored marketing solutions. Combining strategic insight with creative execution will drive engagement, increase visibility, and deliver measurable results.
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
@@ -121,14 +172,14 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+            <img src="images/arts/marketing-3-56.svg" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
           <div class="services__pic">
-            <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+            <img src="images/arts/coding-3-75.svg" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -136,9 +187,7 @@
             <div class="icon d-block bi bi-code-slash"></div>
             <h3 class="display-3--title mt-1">web development</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+              Transform your online presence with innovative web design services. Receive visually stunning, user-friendly websites that not only capture your brand’s essence but also engage and convert visitors.                         
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
@@ -149,12 +198,10 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
-            <div class="icon d-block bi bi-cloud-arrow-up"></div>
-            <h3 class="display-3--title mt-1">cloud hosting</h3>
+            <div class="icon d-block bi bi-brush"></div>
+            <h3 class="display-3--title mt-1">Graphic Design</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+              Bring your brand to life with expert graphic design services. With eye-catching visuals that communicate your message effectively, your brand will resonate with your audience. 
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
@@ -163,56 +210,116 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+            <img src="images/arts/designer-1-70.svg" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- THE CAMPANIES SECTION -->
-  <section id="companies" class="companies">
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills p-3 mx-5">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">Trusted by</h1>
-        <div class="heading-line mb-5"></div>
+        <h1 class="display-3 fw-bold">Relevant Skills</h1>
+        <div class="heading-line mb-1"></div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-1.png" alt="Company 1 logo" title="Company 1 Logo" class="img-fluid">
-          </div>
+    <div class="row pt-2 pb-2 mt-0 mb-3 rounded">
+      <div class="col-sm">
+        <div class="bg-white p-4 card shadow mb-3">
+          <h2>Web</h2>
+          <ul>
+            <li>HTML & CSS/SCSS</li>
+            <li>Javascript/Bootstrap/React</li>
+            <li>Github, Netlify, Cyberduck, etc.</li>
+            <li>SQL/MySQL/Database Design</li>
+            <li>Python</li>
+            <li>Web Animation/CSS Illustration</li>
+            <li>UX Design- User Research, Wireframes/Figma</li>
+            <li>UI Design</li>
+            <li>Wordpress</li>
+            <li>Hosting Platforms</li>
+          </ul>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-2.png" alt="Company 2 logo" title="Company 2 Logo" class="img-fluid">
-          </div>
+      </div>
+      <div class="col-sm">
+        <div class="bg-white p-4 card shadow mb-3">
+          <h2>Graphic Design</h2>
+          <ul>
+            <li>Illustration</li>
+            <li>Printmaking</li>
+            <li>Adobe Indesign</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe Photoshop</li>
+            <li>Logo Design</li>
+            <li>Brand Package</li>
+            <li>Print Materials</li>
+            <li>Fashion Design + Croquis + Sewing</li>
+            <li>Social Media Graphics</li>
+            <li>Photography + Photo Editing</li>
+            <li>Product Images</li>
+          </ul>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-3.png" alt="Company 3 logo" title="Company 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-4.png" alt="Company 4 logo" title="Company 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-5.png" alt="Company 5 logo" title="Company 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-6.png" alt="Company 6 logo" title="Company 6 Logo" class="img-fluid">
-          </div>
+      </div>
+      <div class="col-sm">
+        <div class="bg-white p-4 card shadow mb-3">
+          <h2>Business</h2>
+          <ul>
+            <li>Business Marketing</li>
+            <li>Online Presence/SEO</li>
+            <li>Business Management</li>
+            <li>Sourcing & Overseas Manufacturing</li>
+            <li>Shipping & Warehousing Management</li>
+            <li>Online Marketing Campaigns</li>
+            <li>Social Media Management</li>
+            <li>Excel/Google Sheets + Advanced</li>
+            <li>Basic Accounting + Marketing Budget</li>
+            <li>Sales Strategies</li>
+            <li>Customer Satisfaction + Service</li>
+            <li>Amazon & Walmart</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
+
+
+  <!-- THE COMPANIES SECTION -->
+  <section id="campaigns">
+      <div class="cotainer">
+          <div class="row text-center">
+              <h4 class="fw-bold lead mb-3">Examples of Brands & Companies I've Worked With</h4>
+              <div class="heading-line mb-5"></div>
+          </div>
+      </div>
+      <!-- COMPANIES CONTENT -->
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-lg-2">
+                  <div class="companies__logo-box shadow-sm"><img src="images/companies/pro-fit-logo.png" alt="Company Logo" title="Company 1 Logo" class="img-fluid"></div>
+              </div>
+              <div class="col-md-4 col-lg-2">
+                  <div class="companies__logo-box shadow-sm"><img src="images/companies/utah-contract-sewing-logo.png" alt="Company Logo" title="Company 1 Logo" class="img-fluid"></div>
+              </div>
+              <div class="col-md-4 col-lg-2">
+                  <div class="companies__logo-box shadow-sm"><img src="images/companies/guild-mortgage-logo.png" alt="Company Logo" title="Company 1 Logo" class="img-fluid"></div>
+              </div>
+              <div class="col-md-4 col-lg-2">
+                  <div class="companies__logo-box shadow-sm"><img src="images/companies/links-logo.webp" alt="Company Logo" title="Company 1 Logo" class="img-fluid"></div>
+              </div>
+              <div class="col-md-4 col-lg-2">
+                  <div class="companies__logo-box shadow-sm"><img src="images/companies/square-one-logo.png" alt="Company Logo" title="Company 1 Logo" class="img-fluid"></div>
+              </div>
+              <div class="col-md-4 col-lg-2">
+                  <div class="companies__logo-box shadow-sm"><img src="images/companies/beautiful-light-logo.png" alt="Company Logo" title="Company 1 Logo" class="img-fluid"></div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
 
   <!-- THE TESTIMONIALS SECTION -->
   <section id="testimonials" class="testimonials">
@@ -227,108 +334,73 @@
         <hr style="width: 100px; height: 3px; " class="mx-auto">
         <p class="lead pt-1">what our clients are saying</p>
       </div>
-
       <div class="row align-items-center">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  Kelli has managed our social media accounts, edited and photoshopped headshots, created printed marketing materials, and co-hosted events for us. She is great at what she does.
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                 </div>
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/karen-headshot.png" alt="Picture of Karen Nielson" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Patrick Muriungi</h3>
-                <p class="fw-light">CEO & founder</p>
+                <h3>Karen Nielson</h3>
+                <p class="fw-light">Senior Loan Officer & Branch Manager - Guild Mortgage</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  She has done an excellent job in design work, creating graphics for us and many of our clients-- menus, logos, signage, flyers, and more. Her quality design work has been very useful to us.
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                 </div>
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/headshot-generic.jpg" alt="Picture of Steve Cracroft" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Joy Marete</h3>
-                <p class="fw-light">Finance Manager</p>
+                <h3>Steve Cracroft</h3>
+                <p class="fw-light">President & Co-Owner - Square One Printing</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="testimonials__card">
                 <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
+                  <i class="bi bi-quote"></i>
+                  Our website looks so much better thanks to her. She also took excellent photos for use in marketing and created some patterns for us to print on fashion fabrics. We loved them!
                 <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
                 </div>
                 </p>
               </div>
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/evan-headshot.jpeg" alt="Picture of Evan Glassman" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>ClaireBelle Zawadi</h3>
-                <p class="fw-light">Global brand manager</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
-                <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                </div>
-                </p>
-              </div>
-              <div class="testimonials__picture">
-                <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
-              </div>
-              <div class="testimonials__name">
-                <h3>Uhuru Kenyatta</h3>
-                <p class="fw-light">C.E.O & Founder</p>
+                <h3>Evan Glassman</h3>
+                <p class="fw-light">Owner - Utah Contract Sewing</p>
               </div>
             </div>
           </div>
@@ -343,12 +415,15 @@
         </div>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="end-testimonials-svg">
       <path fill="#fff" fill-opacity="1"
         d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
     </svg>
   </section>
+
+
+
 
   <!-- THE FAQ SECTION -->
   <section id="faq" class="faq">
@@ -356,7 +431,7 @@
       <div class="row text-center">
         <h1 class="display-3 fw-bold text-uppercase">faq</h1>
         <div class="heading-line"></div>
-        <p class="lead">frequently asked questions, get knowledge befere hand</p>
+        <p class="lead">Frequently asked questions-- get knowledge beforehand</p>
       </div>
       <div class="row mt-5">
         <div class="col-md-12">
@@ -365,13 +440,13 @@
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
-                  Cum facilis quis quia modi ipsam unde fuga animi?
+                  Are you available for hire full-time?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, et adipisci, suscipit doloremque dicta necessitatibus esse ea minus, aut officia nulla harum asperiores quis dolor aliquid a ut est soluta?
+                  Yes! I am open to job offers of any kind. I'm excited to be of service to you and your company.
                 </div>
               </div>
             </div>
@@ -379,13 +454,13 @@
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                  What kind of formal education do you have in design?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos excepturi amet nesciunt sunt recusandae enim! Repellat nam quo unde eligendi, ex cumque illum deserunt ratione rerum perspiciatis voluptatum voluptas.
+                  Besides my many work experiences in design and business, I am a student at Weber State University, majoring in UX design. Google UX Design classes and Bottega University Full-Stack React Web Development classes were very useful. I also have experience with formal one-on-one art classes and group classes.
                 </div>
               </div>
             </div>
@@ -393,13 +468,13 @@
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Quaerat dolorem, eveniet hic natus iste velit?
+                  How much job experience do you have in design?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, perspiciatis ea eius laborum iste, fugiat molestias magni tenetur quidem assumenda quibusdam dignissimos vitae impedit maiores velit quae aspernatur voluptatibus aperiam.
+                  I have had full-time positions in web development, marketing, graphic design, and sales. I am also a online retail business owner! I love working in a variety of fields related to business and design, and have been since 2016.
                 </div>
               </div>
             </div>
@@ -407,13 +482,13 @@
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Fuga quasi voluptate possimus, eum ex iure sit placeat?
+                  What are you doing right now in design?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas officia consequuntur sapiente quis. Perferendis excepturi magnam autem blanditiis? At fugit, mollitia quo consequatur deserunt provident aspernatur. Provident, id corporis.
+                  I am currently employed full-time as a graphic designer at a print company. I have been designing a lot of signage, business cards, flyers, wedding and graduation announcements, and logos. I am also attending Weber State University, freelancing, working as a Realtor, and managing my online business.
                 </div>
               </div>
             </div>
@@ -422,6 +497,12 @@
       </div>
     </div>
   </section>
+
+
+
+
+
+
 
   <!-- THE PORTFOLIO -->
   <section id="portfolio" class="portfolio">
@@ -430,123 +511,123 @@
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
         <div class="heading-line"></div>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+          Welcome to my portfolio! Click on the filter buttons to see graphic design work, marketing, web design, or all categories. 
         </p>
       </div>
       <div class="row mt-5 mb-4 g-3 text-center">
         <div class="col-md-12">
           <button class="btn btn-outline-primary" type="button">All</button>
-          <button class="btn btn-outline-primary" type="button">websites</button>
-          <button class="btn btn-outline-primary" type="button">design</button>
-          <button class="btn btn-outline-primary" type="button">mockup</button>
+          <button class="btn btn-outline-primary" type="button">Websites</button>
+          <button class="btn btn-outline-primary" type="button">Graphic Design</button>
+          <button class="btn btn-outline-primary" type="button">Product & Listing</button>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Websites">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
+                <h4>Website Recreation</h4>
+                <p>Websites</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Websites">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
+                <h4>CSS Animations</h4>
+                <p>Websites</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Graphic Design">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
+                <h4>Graphic Design for Print</h4>
+                <p>Graphic Design</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Product & Listing">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
+                <h4>Workout Product Design and Listing Photos</h4>
+                <p>Product Design</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Product & Listing">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
+                <h4>Yoga Ball Product Image Rendering</h4>
+                <p>Product Design</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Websites">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-6.jpg" alt="portfolio 6 image" title="portfolio 6 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
+                <h4>Beginner Class Projects</h4>
+                <p>Websites</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Websites">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-7.jpg" alt="portfolio 7 image" title="portfolio 7 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
+                <h4>Weber Graduation Countdown</h4>
+                <p>Websites</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Graphic Design">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-8.jpg" alt="portfolio 8 image" title="portfolio 8 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
+                <h4>Graphic Design for Print</h4>
+                <p>Graphic Design</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6" data-category="Websites">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-9.jpg" alt="portfolio 9 image" title="portfolio 9 picture"
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
+                <h4>More Beginner Projects</h4>
+                <p>Websites</p>
               </div>
             </div>
           </div>
@@ -555,6 +636,10 @@
     </div>
   </section>
 
+
+
+
+
   <!-- THE GET STARTED SECTION -->
   <section id="contact" class="get-started">
     <div class="container">
@@ -562,7 +647,7 @@
         <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
         <div class="heading-line"></div>
         <p class="lh-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+          Ready to start your next project with me? Contact me to begin.
         </p>
       </div>
 
@@ -571,15 +656,13 @@
           <div class="cta-info w-100">
             <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto
-              sint ipsam dolore tempora facere laboriosam corrupti!
-            </p>
-            <h3 class="display-3--brief">What will be the next step?</h3>
+              Your satisfaction is my priority. I’m dedicated to delivering exceptional quality and will work with you until you're fully satisfied. Your happiness is my success, and I guarantee the best service.            </p>
+            <h3 class="display-3--brief">What happens next?</h3>
             <ul class="cta-info__list">
-              <li>We'll prepare the proposal.</li>
-              <li>we'll discuss it together.</li>
-              <li>let's start the discussion.</li>
-            </ul>
+              <li><i class="bi bi-check"></i> I'll ask you some questions about the project.</li>
+              <li><i class="bi bi-check"></i> We'll discuss solutions I can provide for you.</li>
+              <li><i class="bi bi-check"></i> We can get started!</li>
+          </ul>
           </div>
         </div>
         <div class="col-12 col-lg-6 bg-white shadow p-3">
@@ -614,7 +697,12 @@
       </div>
     </div>
   </section>
-<!-- THE FOOTER SECTION -->
+
+
+
+
+
+  <!-- THE FOOTER SECTION -->
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -630,8 +718,8 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">801-626-1234</a>
-            <p class="contact-box__info--subtitle"> Mon-Fri 9am-6pm</p>
+            <a href="tel:+14357709168" class="contact-box__info--title">435-770-9168</a>
+            <p class="contact-box__info--subtitle"> Mon-Fri 8AM-5PM</p>
           </div>
         </div>
         <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
@@ -646,7 +734,7 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">info@company.com</a>
+            <a href="mailto:kellijeske@mail.weber.edu" class="contact-box__info--title">kellijeske@mail.weber.edu</a>
             <p class="contact-box__info--subtitle">Online support</p>
           </div>
         </div>
@@ -663,13 +751,14 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">Salt Lake City, USA</a>
-            <p class="contact-box__info--subtitle">NY 10012, US</p>
+            <a href="https://www.google.com/maps?q=Logan,+UT" target="_blank" class="contact-box__info--title">Logan, Utah</a>
+            <p class="contact-box__info--subtitle">84321 USA</p>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- SOCIAL MEDIA CONTENT -->
     <div class="footer-sm" style="background-color: #212121;">
       <div class="container">
         <div class="row py-4 text-center text-white">
@@ -684,61 +773,59 @@
       </div>
     </div>
 
-    <div class="container mt-5">
+     <!-- COMPANY INFO -->
+     <div class="container mt-5">
       <div class="row text-white justify-content-center mt-3 pb-3">
-        <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-          <h5 class="text-capitalize fw-bold">Company name</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab
-            mollitia voluptatem consectetur?
-          </p>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">Products</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">useful links</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">contact</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
+          <div class="col-12 col-sm-6 col-lg-6">
+              <h5 class="text-capitalize fw-bold">Kelli Jeske</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <p class="lh-lg">Can't wait to start on your new project? Contact me to get started!</p>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold">Jump to Section</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#faq">FAQ</a></li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold">Other sections</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#about">About Me</a></li>
+                  <li><a href="#skills">Skills List</a></li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+              <h5 class="text-capitalize fw-bold">Useful Links</h5>
+              <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+              <ul class="list-inline company-list">
+                  <li><a href="https://fonts.google.com/" target=”_blank”>Google Fonts</a></li>
+                  <li><a href="https://icons.getbootstrap.com/" target=”_blank”>Bootstrap Icons</a></li>
+                  <li><a href="https://getwaves.io/" target=”_blank”>Wave Generator</a></li>
+                  <li><a href="https://www.manypixels.co/gallery" target=”_blank”>SVG Graphics</a></li>
+              </ul>
+          </div>
       </div>
     </div>
 
+    <!-- COPYRIGHT INFO -->
     <div class="footer-bottom pt-5 pb-5">
       <div class="container">
-        <div class="row text-center text-white">
-          <div class="col-12">
-            <div class="footer-bottom__copyright">
-              &COPY; Copyright 2022 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com"
-                target="_blank">Name Goes Here</a>
-            </div>
+          <div class="row text-center text-white">
+              <div class="col-12">
+                  <div class="footer-bottom__copyright">
+                      &COPY; Copyright 2024 <a href="#">Kelli Jeske Portfolio</a> | Created by <a href="#">Kelli Jeske</a>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
+      </div>
   </footer>
 
   <a href="#" class="shadow btn-primary rounded-circle back-to-top">
